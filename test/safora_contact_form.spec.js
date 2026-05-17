@@ -1,59 +1,18 @@
-// ============================================================
-//  Safora.se – Contact Us Form Automation
-//  Framework : Playwright (JavaScript)
-//  Author    : QA Engineering Intern
-//  Date      : May 2026
-//  Target    : https://safora.se/en/
-// ============================================================
-//
-//  HOW TO RUN
-//  ----------
-//  Prerequisites:
-//    Node.js >= 16  |  npm >= 8
-//
-//  1. Install dependencies (one-time):
-//       npm init -y
-//       npm install --save-dev @playwright/test
-//       npx playwright install chromium
-//
-//  2. Run all tests (headless):
-//       npx playwright test safora_contact_form.spec.js
-//
-//  3. Run in headed mode (see the browser):
-//       npx playwright test safora_contact_form.spec.js --headed
-//
-//  4. Run a single test by name:
-//       npx playwright test -g "TC-CON-02" --headed
-//
-//  5. View HTML report after a run:
-//       npx playwright show-report
-//
-//  NOTES
-//  -----npx playwright show-report
-//  • The CONTACT_URL constant can be updated if the Contact Us
-//    page URL differs (e.g. /en/contact/).
-//  • Field selectors are based on common label text via
-//    getByLabel() for resilience; fall back to getByPlaceholder()
-//    if the site uses placeholder-only inputs.
-//  • Expected success / error text strings may need adjustment
-//    to match the live site's exact copy.
-// ============================================================
 
 const { test, expect } = require('@playwright/test');
 
-// ── Configuration ─────────────────────────────────────────────────────────────
 
 const BASE_URL    = 'https://safora.se/en/';
-const CONTACT_URL = 'https://safora.se/en/contact/';   // adjust if needed
+const CONTACT_URL = 'https://safora.se/en/contact/';   
 
 const VALID_DATA = {
-  name   : 'Jane Smith',
-  email  : 'jane.smith@example.com',
+  name   : 'Chathushki Kumarage',
+  email  : 'asmadachathushki@gmail.com',
   company: 'Acme Industrial Ltd.',
   message: 'Hello, I am interested in learning more about your safety management platform for our warehouse operations. Please get in touch.',
 };
 
-// ── Shared helpers ────────────────────────────────────────────────────────────
+
 
 /**
  * Navigate to the Contact Us page via the navigation menu.
@@ -208,7 +167,7 @@ test.describe('Safora – Contact Us Form', () => {
     let alertFired = false;
     page.on('dialog', async (dialog) => {
       alertFired = true;
-      await dialog.dismiss();   // dismiss if one somehow appears
+      await dialog.dismiss();  
     });
 
     await gotoContactPage(page);
