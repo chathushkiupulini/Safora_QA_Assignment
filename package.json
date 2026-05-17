@@ -1,0 +1,24 @@
+{
+  "name": "safora_qa_assignment",
+  "version": "1.0.0",
+  "description": "Playwright automation for the Safora.se Contact Us form — QA Engineering Intern Assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chathushkiupulini/Safora_QA_Assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chathushkiupulini/Safora_QA_Assignment/issues"
+  },
+  "homepage": "https://github.com/chathushkiupulini/Safora_QA_Assignment#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}

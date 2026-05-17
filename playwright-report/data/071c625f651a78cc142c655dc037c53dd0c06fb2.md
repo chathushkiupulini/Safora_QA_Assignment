@@ -1,0 +1,835 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: test\safora_contact_form.spec.js >> Safora – Contact Us Form >> TC-CON-09 | Contact form is usable on mobile viewport (375px)
+- Location: test\safora_contact_form.spec.js:258:3
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner:
+      - generic [ref=e5]:
+        - link "Safora - Industrial Safety Management System" [ref=e8] [cursor=pointer]:
+          - /url: /en/
+          - img "Safora - Industrial Safety Management System" [ref=e9]
+        - text: 
+        - generic [ref=e10]:
+          - link "Book a Demo" [ref=e12] [cursor=pointer]:
+            - /url: https://cal.com/irusri
+          - link "Toggle menu" [ref=e15] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e16]
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Safora - Industrial Safety Management System" [ref=e23] [cursor=pointer]:
+          - /url: /en/
+          - img "Safora - Industrial Safety Management System" [ref=e24]
+        - button "Close menu" [ref=e26] [cursor=pointer]
+      - generic "Language switcher" [ref=e31]:
+        - link "EN" [ref=e32] [cursor=pointer]:
+          - /url: /en/
+        - link "SV" [ref=e33] [cursor=pointer]:
+          - /url: /sv/
+      - generic:
+        - navigation [ref=e35]:
+          - list:
+            - listitem [ref=e36]:
+              - link "Home" [ref=e37] [cursor=pointer]:
+                - /url: /en/
+            - listitem [ref=e38]:
+              - link "About Us" [ref=e39] [cursor=pointer]:
+                - /url: /en/about.html
+            - listitem [ref=e40]:
+              - link "Features" [ref=e41] [cursor=pointer]:
+                - /url: "#"
+              - link "Expand menu" [ref=e42] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e43]: 
+            - listitem [ref=e44]:
+              - link "Blog" [ref=e45] [cursor=pointer]:
+                - /url: /en/blog.html
+            - listitem [ref=e46]:
+              - link "Contact Us" [ref=e47] [cursor=pointer]:
+                - /url: /en/contact.html
+        - generic:
+          - navigation
+      - generic [ref=e48]:
+        - heading [level=4] [ref=e49]: Contact Info
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - img [ref=e53]
+            - link [ref=e57] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=Rådhusesplanaden+6F,+Umeå,+Sweden
+              - text: Rådhusesplanaden 6 F, 903 28, Umeå, Sweden
+          - listitem [ref=e58]:
+            - img [ref=e60]
+            - link [ref=e64] [cursor=pointer]:
+              - /url: tel:+46730445855
+              - text: +46 73 044 58 55
+          - listitem [ref=e65]:
+            - img [ref=e67]
+            - link [ref=e71] [cursor=pointer]:
+              - /url: mailto:info@safora.se
+              - text: info@safora.se
+      - generic [ref=e72]:
+        - heading [level=4] [ref=e73]: Subscribe & Follow
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link [ref=e76] [cursor=pointer]:
+              - /url: https://x.com/IrusriGroup
+              - generic [ref=e77]: 
+          - listitem [ref=e78]:
+            - link [ref=e79] [cursor=pointer]:
+              - /url: https://web.facebook.com/profile.php?id=61559106915519
+              - generic [ref=e80]: 
+          - listitem [ref=e81]:
+            - link [ref=e82] [cursor=pointer]:
+              - /url: https://www.instagram.com/irusrigroup_ab/
+              - generic [ref=e83]: 
+          - listitem [ref=e84]:
+            - link [ref=e85] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/irusri/
+              - generic [ref=e86]: 
+          - listitem [ref=e87]:
+            - link [ref=e88] [cursor=pointer]:
+              - /url: https://irusri.se/
+              - generic [ref=e89]: 
+    - main [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e94]:
+          - group "5 / 5":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Prevention is always
+                    - generic: cheaper than recovery.
+          - group "1 / 5":
+            - generic:
+              - generic:
+                - generic:
+                  - heading "2.3 million lives lost every year to workplace incidents." [level=1]:
+                    - generic: 2.3 million lives lost every year
+                    - generic: to workplace incidents.
+          - group "2 / 5":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Behind every incident is a
+                    - generic: family waiting at home.
+          - group "3 / 5":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: What you ignore today
+                    - generic: can become tomorrow's incident.
+          - group "4 / 5":
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: The difference between a normal day
+                    - generic: and a disaster is one overlooked risk.
+          - group "5 / 5" [ref=e95]:
+            - generic [ref=e101]:
+              - generic [ref=e102]: Prevention is always
+              - generic [ref=e103]: cheaper than recovery.
+          - group "1 / 5":
+            - generic:
+              - generic:
+                - generic:
+                  - heading "2.3 million lives lost every year to workplace incidents." [level=1]:
+                    - generic: 2.3 million lives lost every year
+                    - generic: to workplace incidents.
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - link "2.83M non-fatal accidents at work in the EU (2023) " [ref=e112] [cursor=pointer]:
+              - /url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251014-1
+              - generic [ref=e113]:
+                - generic [ref=e114]: 2.83M
+                - text: non-fatal accidents at work in the EU (2023)
+                - generic [ref=e115]: 
+            - img "separator" [ref=e117]
+          - generic [ref=e118]:
+            - link "3,298 fatal work-related accidents in the EU " [ref=e119] [cursor=pointer]:
+              - /url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251014-1
+              - generic [ref=e120]:
+                - generic [ref=e121]: 3,298
+                - text: fatal work-related accidents in the EU
+                - generic [ref=e122]: 
+            - img "separator" [ref=e124]
+          - generic [ref=e125]:
+            - link "856:1 non-fatal accidents per fatal accident ratio " [ref=e126] [cursor=pointer]:
+              - /url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251014-1
+              - generic [ref=e127]:
+                - generic [ref=e128]: 856:1
+                - text: non-fatal accidents per fatal accident ratio
+                - generic [ref=e129]: 
+            - img "separator" [ref=e131]
+          - generic [ref=e132]:
+            - link "1.63 per 100,000 fatal workplace accident rate in EU " [ref=e133] [cursor=pointer]:
+              - /url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251014-1
+              - generic [ref=e134]:
+                - generic [ref=e135]: "1.63"
+                - text: per 100,000 fatal workplace accident rate in EU
+                - generic [ref=e136]: 
+            - img "separator" [ref=e138]
+          - generic [ref=e139]:
+            - link "5,070 U.S. CFOI 2024 Fatal Injuries " [ref=e140] [cursor=pointer]:
+              - /url: https://www.bls.gov/news.release/archives/cfoi_02192026.htm
+              - generic [ref=e141]:
+                - generic [ref=e142]: 5,070
+                - text: U.S. CFOI 2024 Fatal Injuries
+                - generic [ref=e143]: 
+            - img "separator" [ref=e145]
+          - generic [ref=e146]:
+            - link "2.5M U.S. SOII 2023–2024 Nonfatal Injuries & Illnesses " [ref=e147] [cursor=pointer]:
+              - /url: https://www.bls.gov/news.release/archives/cfoi_02192026.htm
+              - generic [ref=e148]:
+                - generic [ref=e149]: 2.5M
+                - text: U.S. SOII 2023–2024 Nonfatal Injuries & Illnesses
+                - generic [ref=e150]: 
+            - img "separator" [ref=e152]
+          - generic [ref=e153]:
+            - link "3M workers die yearly from work-related accidents globally " [ref=e154] [cursor=pointer]:
+              - /url: https://www.ilo.org/resource/news/nearly-3-million-people-die-work-related-accidents-and-diseases?utm_source=chatgpt.com
+              - generic [ref=e155]:
+                - generic [ref=e156]: 3M
+                - text: workers die yearly from work-related accidents globally
+                - generic [ref=e157]: 
+            - img "separator" [ref=e159]
+          - generic [ref=e160]:
+            - link "25% of fatal accidents in construction sector " [ref=e161] [cursor=pointer]:
+              - /url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251014-1
+              - generic [ref=e162]:
+                - generic [ref=e163]: 25%
+                - text: of fatal accidents in construction sector
+                - generic [ref=e164]: 
+            - img "separator" [ref=e166]
+          - generic [ref=e167]:
+            - link "3,000+ workers lose their lives yearly in Europe " [ref=e168] [cursor=pointer]:
+              - /url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251014-1
+              - generic [ref=e169]:
+                - generic [ref=e170]: 3,000+
+                - text: workers lose their lives yearly in Europe
+                - generic [ref=e171]: 
+            - img "separator" [ref=e173]
+          - generic [ref=e174]:
+            - link "76% of accidents lead to physical injury " [ref=e175] [cursor=pointer]:
+              - /url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251014-1
+              - generic [ref=e176]:
+                - generic [ref=e177]: 76%
+                - text: of accidents lead to physical injury
+                - generic [ref=e178]: 
+            - img "separator" [ref=e180]
+          - generic [ref=e181]:
+            - link "1-2 weeks off work for most common accidents " [ref=e182] [cursor=pointer]:
+              - /url: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251014-1
+              - generic [ref=e183]:
+                - generic [ref=e184]: 1-2
+                - text: weeks off work for most common accidents
+                - generic [ref=e185]: 
+            - img "separator" [ref=e187]
+  - button "" [ref=e189] [cursor=pointer]:
+    - generic [ref=e190]: 
+  - generic [ref=e199]:
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - img "Safora About Us Icon" [ref=e202]
+        - text: About Us
+      - 'heading "Industrial Safety Management System: Redefining Workplace Safety with Safora" [level=2] [ref=e203]'
+      - paragraph [ref=e204]:
+        - text: Designed to help organisations proactively manage workplace safety, ensure regulatory compliance, and build a sustainable Zero Harm culture. From
+        - link "hazard" [ref=e205] [cursor=pointer]:
+          - /url: /en/hazard-details.html
+        - text: and
+        - link "incident" [ref=e206] [cursor=pointer]:
+          - /url: /en/incident-details.html
+        - text: reporting to
+        - link "work permit" [ref=e207] [cursor=pointer]:
+          - /url: /en/work-permit-details.html
+        - text: approvals, inspections, audits, action tracking, and real-time
+        - link "dashboards" [ref=e208] [cursor=pointer]:
+          - /url: /en/dashbord-details.html
+        - text: ", SAFORA centralises your entire safety ecosystem into one intelligent, configurable platform."
+    - paragraph [ref=e211]: SAFORA provides comprehensive digital tools for safety managers to identify, assess, and control workplace risks. With mobile-first reporting, automated workflows, centralized documentation, and actionable insights, organizations can shift from reactive firefighting to proactive risk management, fostering a culture where safety is everyone's responsibility.
+    - link "Read More" [ref=e213] [cursor=pointer]:
+      - /url: /en/about.html
+      - text: Read More
+      - generic [ref=e214]:
+        - img [ref=e215]
+        - img [ref=e216]
+  - generic [ref=e218]:
+    - generic [ref=e221]:
+      - generic [ref=e222]:
+        - img "Safora Features Icon" [ref=e223]
+        - text: Features
+      - 'heading "EHS Software Features: Everything You Need to Manage Workplace Safety" [level=2] [ref=e224]'
+    - generic [ref=e225]:
+      - tablist [ref=e228]:
+        - tab "Hazard Management" [selected] [ref=e229] [cursor=pointer]:
+          - text: Hazard Management
+          - img [ref=e230]
+        - tab "Incident Management" [ref=e232] [cursor=pointer]: Incident Management
+        - tab "Work Permit Management" [ref=e233] [cursor=pointer]: Work Permit Management
+        - tab "Safety Calendar" [ref=e234] [cursor=pointer]: Safety Calendar
+        - tab "Inspection Management" [ref=e235] [cursor=pointer]: Inspection Management
+        - tab "Dashboard" [ref=e236] [cursor=pointer]: Dashboard
+        - tab "Emergency Directory" [ref=e237] [cursor=pointer]: Emergency Directory
+        - tab "Safety Reports" [ref=e238] [cursor=pointer]: Safety Reports
+      - generic [ref=e241]:
+        - tabpanel "Hazard Management" [ref=e242]:
+          - generic [ref=e246]:
+            - heading "Hazard Management & Risk Control" [level=3] [ref=e247]
+            - paragraph [ref=e248]: Identify, report, and track workplace hazards in real time to prevent incidents before they happen and maintain a safer working environment.
+            - list [ref=e250]:
+              - listitem [ref=e251]:  On-site and remote hazard reporting with photo evidence
+              - listitem [ref=e252]:  Built-in risk assessment using priority and severity levels
+              - listitem [ref=e253]:  Assign responsible personnel to investigate and resolve hazards
+              - listitem [ref=e254]:  Track corrective and preventive actions from start to closure
+              - listitem [ref=e255]:  Instant notifications to all relevant parties upon hazard reporting
+              - listitem [ref=e256]:  Complete audit and action logs for full transparency and accountability
+            - link "Read more about hazard details" [ref=e258] [cursor=pointer]:
+              - /url: /en/hazard-details.html
+              - text: Read More
+              - generic [ref=e259]:
+                - img [ref=e260]
+                - img [ref=e261]
+        - text:                                          
+  - generic [ref=e266]:
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - img "Safora Platform Icon" [ref=e269]
+        - text: Our Platform
+      - 'heading "Safety Management Platform: Access Safora Anytime, Anywhere" [level=2] [ref=e270]'
+      - paragraph [ref=e271]:
+        - text: Safora is a fully featured web based safety management platform that gives organizations complete control over safety operations. For frontline and on site teams, a dedicated mobile app complements the platform, enabling quick reporting of
+        - link "hazards" [ref=e272] [cursor=pointer]:
+          - /url: /en/hazard-details.html
+        - text: ","
+        - link "incidents" [ref=e273] [cursor=pointer]:
+          - /url: /en/incident-details.html
+        - text: ","
+        - link "inspections" [ref=e274] [cursor=pointer]:
+          - /url: /en/inspection-details.html
+        - text: ", and"
+        - link "work permits" [ref=e275] [cursor=pointer]:
+          - /url: /en/work-permit-details.html
+        - text: directly from the field.
+    - tablist [ref=e277]:
+      - tab " Web Platform" [selected] [ref=e278] [cursor=pointer]:
+        - generic [ref=e279]: 
+        - text: Web Platform
+      - tab " Mobile App" [ref=e280] [cursor=pointer]:
+        - generic [ref=e281]: 
+        - text: Mobile App
+    - tabpanel " Web Platform" [ref=e284]:
+      - generic [ref=e285]:
+        - heading "System Capabilities" [level=4] [ref=e286]
+        - list [ref=e287]:
+          - listitem [ref=e288]:
+            - generic [ref=e289]: ✔
+            - text: Role based access control for managing user permissions and responsibilities
+          - listitem [ref=e290]:
+            - generic [ref=e291]: ✔
+            - text: Hierarchical notification system for instant alerts on web and mobile
+          - listitem [ref=e292]:
+            - generic [ref=e293]: ✔
+            - text: Bulk data onboarding for faster system setup and migration
+          - listitem [ref=e294]:
+            - generic [ref=e295]: ✔
+            - text: Multi format report exports including Excel and PDF for analysis and compliance
+          - listitem [ref=e296]:
+            - generic [ref=e297]: ✔
+            - text: High performance platform with 95% of pages loading in under 2 seconds
+  - generic [ref=e304]:
+    - link "Play video" [ref=e305] [cursor=pointer]:
+      - /url: https://vimeo.com/1182558616
+      - generic [ref=e306]: 
+    - generic [ref=e308]:
+      - generic [ref=e309]: "-"
+      - generic [ref=e311]: P
+      - generic [ref=e312]: r
+      - generic [ref=e313]: o
+      - generic [ref=e314]: d
+      - generic [ref=e315]: u
+      - generic [ref=e316]: c
+      - generic [ref=e317]: t
+      - generic [ref=e319]: O
+      - generic [ref=e320]: v
+      - generic [ref=e321]: e
+      - generic [ref=e322]: r
+      - generic [ref=e323]: v
+      - generic [ref=e324]: i
+      - generic [ref=e325]: e
+      - generic [ref=e326]: w
+      - generic [ref=e328]: "-"
+      - generic [ref=e330]: V
+      - generic [ref=e331]: i
+      - generic [ref=e332]: d
+      - generic [ref=e333]: e
+      - generic [ref=e334]: o
+  - generic [ref=e337]:
+    - generic [ref=e340]:
+      - generic [ref=e341]:
+        - img "Safora Benefits Icon" [ref=e342]
+        - text: Our Benefits
+      - heading "Why Organizations Choose Our EHS Software" [level=2] [ref=e343]
+    - generic [ref=e346]:
+      - generic [ref=e347]:
+        - heading "Reduce accidents and workplace downtime" [level=4] [ref=e349]
+        - paragraph [ref=e350]: Identify hazards early, manage risks proactively, and respond to incidents faster.
+      - generic [ref=e351]:
+        - heading "Accelerate audits and simplify reporting" [level=4] [ref=e353]
+        - paragraph [ref=e354]:
+          - text: Automate
+          - link "safety documentation" [ref=e355] [cursor=pointer]:
+            - /url: /en/reporting-management.html
+          - text: ", inspection records, and compliance reporting."
+      - generic [ref=e356]:
+        - heading "Increase employee engagement and accountability" [level=4] [ref=e358]
+        - paragraph [ref=e359]: Enable employees to report hazards, incidents, and safety observations directly through the platform.
+      - generic [ref=e360]:
+        - heading "Gain real-time visibility of safety performance" [level=4] [ref=e362]:
+          - text: Gain real-time visibility of
+          - link "safety performance" [ref=e363] [cursor=pointer]:
+            - /url: https://www.ilo.org/topics-and-sectors/safety-and-health-work
+        - paragraph [ref=e364]: Monitor incidents, risks, inspections, and safety metrics through live dashboards and analytics.
+      - generic [ref=e365]:
+        - heading "Boost productivity and lower operational costs" [level=4] [ref=e367]
+        - paragraph [ref=e368]: Reduce disruptions caused by accidents, downtime, and compliance issues while streamlining safety processes.
+      - generic [ref=e369]:
+        - heading "Support ISO 45001:2018 Safety Compliance" [level=4] [ref=e371]:
+          - text: Support
+          - link "ISO 45001:2018" [ref=e372] [cursor=pointer]:
+            - /url: https://www.iso.org/standard/63787.html
+          - text: Safety Compliance
+        - paragraph [ref=e373]: Align safety management processes with ISO 45001:2018 standards, helping organisations maintain regulatory compliance.
+  - generic [ref=e375]:
+    - heading "Our Offices & Regional Representatives" [level=2] [ref=e379]
+    - generic [ref=e383]:
+      - generic [ref=e384]:
+        - group "4 / 4" [ref=e385]:
+          - generic [ref=e386]:
+            - img "Finland office" [ref=e388]
+            - generic [ref=e389]:
+              - generic [ref=e390]: Office
+              - heading "CodeLotus Oy" [level=4] [ref=e391]:
+                - link "CodeLotus Oy" [ref=e392] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e393]: Kasarmintie 13, 90130 OULU, Finland
+        - group "1 / 4" [ref=e394]:
+          - generic [ref=e395]:
+            - img "Sohaib Husein Hasan Alkhalid" [ref=e397]
+            - generic [ref=e398]:
+              - generic [ref=e399]: Regional Manager
+              - heading "Sohaib Husein Hasan" [level=4] [ref=e400]:
+                - link "Sohaib Husein Hasan" [ref=e401] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e402]: Regional Manager - Middle East
+        - group "2 / 4" [ref=e403]:
+          - generic [ref=e404]:
+            - img "United States office" [ref=e406]
+            - generic [ref=e407]:
+              - generic [ref=e408]: Office
+              - heading "Irusri International LLC" [level=4] [ref=e409]:
+                - link "Irusri International LLC" [ref=e410] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e411]:
+                - text: "2549 Irving St, #1099, San Francisco"
+                - text: California 94122
+        - group "3 / 4" [ref=e412]:
+          - generic [ref=e413]:
+            - img "Sweden office" [ref=e415]
+            - generic [ref=e416]:
+              - generic [ref=e417]: Office
+              - heading "Irusri Group AB" [level=4] [ref=e418]:
+                - link "Irusri Group AB" [ref=e419] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e420]: Rådhusesplanaden 6 F, 903 28, Umeå, Sweden
+        - group "4 / 4" [ref=e421]:
+          - generic [ref=e422]:
+            - img "Finland office" [ref=e424]
+            - generic [ref=e425]:
+              - generic [ref=e426]: Office
+              - heading "CodeLotus Oy" [level=4] [ref=e427]:
+                - link "CodeLotus Oy" [ref=e428] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e429]: Kasarmintie 13, 90130 OULU, Finland
+        - group "1 / 4" [ref=e430]:
+          - generic [ref=e431]:
+            - img "Sohaib Husein Hasan Alkhalid" [ref=e433]
+            - generic [ref=e434]:
+              - generic [ref=e435]: Regional Manager
+              - heading "Sohaib Husein Hasan" [level=4] [ref=e436]:
+                - link "Sohaib Husein Hasan" [ref=e437] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e438]: Regional Manager - Middle East
+      - generic [ref=e440]:
+        - button "Go to slide 1" [ref=e441] [cursor=pointer]
+        - button "Go to slide 2" [ref=e442] [cursor=pointer]
+        - button "Go to slide 3" [ref=e443] [cursor=pointer]
+        - button "Go to slide 4" [ref=e444] [cursor=pointer]
+  - generic [ref=e446]:
+    - generic [ref=e449]:
+      - generic [ref=e450]:
+        - img "Safora Industries Icon" [ref=e451]
+        - text: Our Industries
+      - 'heading "Industrial Safety: Industries We Serve" [level=2] [ref=e452]'
+      - paragraph [ref=e453]: Any organisation committed to operational excellence and Zero Harm can benefit from SAFORA
+    - generic [ref=e458]:
+      - group "1 / 8" [ref=e459]:
+        - generic [ref=e460]:
+          - img "Manufacturing" [ref=e462]
+          - generic [ref=e463]:
+            - heading "Manufacturing" [level=4] [ref=e464]:
+              - link "Manufacturing" [ref=e465] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: In fast-paced production environments, SAFORA helps manage machine-related hazards, shift-based safety reporting, and maintenance permits to reduce downtime and prevent line stoppages. Real-time dashboards give plant managers visibility into recurring risks across production units.
+      - group "2 / 8" [ref=e466]:
+        - generic [ref=e467]:
+          - img "Construction" [ref=e469]
+          - generic [ref=e470]:
+            - heading "Construction" [level=4] [ref=e471]:
+              - link "Construction" [ref=e472] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA digitises Permit-to-Work processes and on-site hazard reporting, ensuring high-risk activities are formally approved and monitored.
+      - group "3 / 8" [ref=e473]:
+        - generic [ref=e474]:
+          - img "Logistics" [ref=e476]
+          - generic [ref=e477]:
+            - heading "Logistics & Warehousing" [level=4] [ref=e478]:
+              - link "Logistics & Warehousing" [ref=e479] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: Manage risks related to forklift operations, loading docks, manual handling injuries, and vehicle movements. By tracking near misses and inspection data, SAFORA reduces lost time injuries and improves warehouse safety performance.
+      - group "4 / 8" [ref=e480]:
+        - generic [ref=e481]:
+          - img "Mining" [ref=e483]
+          - generic [ref=e484]:
+            - heading "Mining" [level=4] [ref=e485]:
+              - link "Mining" [ref=e486] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA supports proactive hazard identification in underground and open-pit environments, tracking risks related to heavy machinery, blasting operations, and confined work areas. Real-time alerts and structured inspections help reduce severe injury and fatality risks.
+      - group "5 / 8" [ref=e487]:
+        - generic [ref=e488]:
+          - img "Energy" [ref=e490]
+          - generic [ref=e491]:
+            - heading "Energy & Utilities" [level=4] [ref=e492]:
+              - link "Energy & Utilities" [ref=e493] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA ensures safe management of maintenance tasks, equipment inspections, and contractor work permits.
+      - group "6 / 8" [ref=e494]:
+        - generic [ref=e495]:
+          - img "Chemical" [ref=e497]
+          - generic [ref=e498]:
+            - heading "Chemical & Pharmaceutical" [level=4] [ref=e499]:
+              - link "Chemical & Pharmaceutical" [ref=e500] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: In environments handling hazardous substances and strict regulatory oversight, SAFORA standardises incident documentation, process safety reporting, and corrective actions. It supports compliance with safety and environmental standards while reducing contamination and exposure risks.
+      - group "7 / 8" [ref=e501]:
+        - generic [ref=e502]:
+          - img "Automotive" [ref=e504]
+          - generic [ref=e505]:
+            - heading "Automotive & Aerospace" [level=4] [ref=e506]:
+              - link "Automotive & Aerospace" [ref=e507] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA monitors safety performance across assembly lines, robotics operations, and testing facilities. It supports structured inspections and rapid corrective action to maintain operational excellence.
+      - group "8 / 8" [ref=e508]:
+        - generic [ref=e509]:
+          - img "Oil & Gas" [ref=e511]
+          - generic [ref=e512]:
+            - heading "Oil & Gas" [level=4] [ref=e513]:
+              - link "Oil & Gas" [ref=e514] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: In high-risk environments, SAFORA enforces structured permit approvals, incident investigations, and compliance tracking.
+      - group "1 / 8" [ref=e515]:
+        - generic [ref=e516]:
+          - img "Manufacturing" [ref=e518]
+          - generic [ref=e519]:
+            - heading "Manufacturing" [level=4] [ref=e520]:
+              - link "Manufacturing" [ref=e521] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: In fast-paced production environments, SAFORA helps manage machine-related hazards, shift-based safety reporting, and maintenance permits to reduce downtime and prevent line stoppages. Real-time dashboards give plant managers visibility into recurring risks across production units.
+      - group "2 / 8" [ref=e522]:
+        - generic [ref=e523]:
+          - img "Construction" [ref=e525]
+          - generic [ref=e526]:
+            - heading "Construction" [level=4] [ref=e527]:
+              - link "Construction" [ref=e528] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA digitises Permit-to-Work processes and on-site hazard reporting, ensuring high-risk activities are formally approved and monitored.
+      - group "3 / 8" [ref=e529]:
+        - generic [ref=e530]:
+          - img "Logistics" [ref=e532]
+          - generic [ref=e533]:
+            - heading "Logistics & Warehousing" [level=4] [ref=e534]:
+              - link "Logistics & Warehousing" [ref=e535] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: Manage risks related to forklift operations, loading docks, manual handling injuries, and vehicle movements. By tracking near misses and inspection data, SAFORA reduces lost time injuries and improves warehouse safety performance.
+      - group "4 / 8" [ref=e536]:
+        - generic [ref=e537]:
+          - img "Mining" [ref=e539]
+          - generic [ref=e540]:
+            - heading "Mining" [level=4] [ref=e541]:
+              - link "Mining" [ref=e542] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA supports proactive hazard identification in underground and open-pit environments, tracking risks related to heavy machinery, blasting operations, and confined work areas. Real-time alerts and structured inspections help reduce severe injury and fatality risks.
+      - group "5 / 8" [ref=e543]:
+        - generic [ref=e544]:
+          - img "Energy" [ref=e546]
+          - generic [ref=e547]:
+            - heading "Energy & Utilities" [level=4] [ref=e548]:
+              - link "Energy & Utilities" [ref=e549] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA ensures safe management of maintenance tasks, equipment inspections, and contractor work permits.
+      - group "6 / 8" [ref=e550]:
+        - generic [ref=e551]:
+          - img "Chemical" [ref=e553]
+          - generic [ref=e554]:
+            - heading "Chemical & Pharmaceutical" [level=4] [ref=e555]:
+              - link "Chemical & Pharmaceutical" [ref=e556] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: In environments handling hazardous substances and strict regulatory oversight, SAFORA standardises incident documentation, process safety reporting, and corrective actions. It supports compliance with safety and environmental standards while reducing contamination and exposure risks.
+      - group "7 / 8" [ref=e557]:
+        - generic [ref=e558]:
+          - img "Automotive" [ref=e560]
+          - generic [ref=e561]:
+            - heading "Automotive & Aerospace" [level=4] [ref=e562]:
+              - link "Automotive & Aerospace" [ref=e563] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA monitors safety performance across assembly lines, robotics operations, and testing facilities. It supports structured inspections and rapid corrective action to maintain operational excellence.
+      - group "8 / 8" [ref=e564]:
+        - generic [ref=e565]:
+          - img "Oil & Gas" [ref=e567]
+          - generic [ref=e568]:
+            - heading "Oil & Gas" [level=4] [ref=e569]:
+              - link "Oil & Gas" [ref=e570] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: In high-risk environments, SAFORA enforces structured permit approvals, incident investigations, and compliance tracking.
+      - group "1 / 8" [ref=e571]:
+        - generic [ref=e572]:
+          - img "Manufacturing" [ref=e574]
+          - generic [ref=e575]:
+            - heading "Manufacturing" [level=4] [ref=e576]:
+              - link "Manufacturing" [ref=e577] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: In fast-paced production environments, SAFORA helps manage machine-related hazards, shift-based safety reporting, and maintenance permits to reduce downtime and prevent line stoppages. Real-time dashboards give plant managers visibility into recurring risks across production units.
+      - group "2 / 8" [ref=e578]:
+        - generic [ref=e579]:
+          - img "Construction" [ref=e581]
+          - generic [ref=e582]:
+            - heading "Construction" [level=4] [ref=e583]:
+              - link "Construction" [ref=e584] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA digitises Permit-to-Work processes and on-site hazard reporting, ensuring high-risk activities are formally approved and monitored.
+      - group "3 / 8" [ref=e585]:
+        - generic [ref=e586]:
+          - img "Logistics" [ref=e588]
+          - generic [ref=e589]:
+            - heading "Logistics & Warehousing" [level=4] [ref=e590]:
+              - link "Logistics & Warehousing" [ref=e591] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: Manage risks related to forklift operations, loading docks, manual handling injuries, and vehicle movements. By tracking near misses and inspection data, SAFORA reduces lost time injuries and improves warehouse safety performance.
+      - group "4 / 8" [ref=e592]:
+        - generic [ref=e593]:
+          - img "Mining" [ref=e595]
+          - generic [ref=e596]:
+            - heading "Mining" [level=4] [ref=e597]:
+              - link "Mining" [ref=e598] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA supports proactive hazard identification in underground and open-pit environments, tracking risks related to heavy machinery, blasting operations, and confined work areas. Real-time alerts and structured inspections help reduce severe injury and fatality risks.
+      - group "5 / 8" [ref=e599]:
+        - generic [ref=e600]:
+          - img "Energy" [ref=e602]
+          - generic [ref=e603]:
+            - heading "Energy & Utilities" [level=4] [ref=e604]:
+              - link "Energy & Utilities" [ref=e605] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA ensures safe management of maintenance tasks, equipment inspections, and contractor work permits.
+      - group "6 / 8" [ref=e606]:
+        - generic [ref=e607]:
+          - img "Chemical" [ref=e609]
+          - generic [ref=e610]:
+            - heading "Chemical & Pharmaceutical" [level=4] [ref=e611]:
+              - link "Chemical & Pharmaceutical" [ref=e612] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: In environments handling hazardous substances and strict regulatory oversight, SAFORA standardises incident documentation, process safety reporting, and corrective actions. It supports compliance with safety and environmental standards while reducing contamination and exposure risks.
+      - group "7 / 8" [ref=e613]:
+        - generic [ref=e614]:
+          - img "Automotive" [ref=e616]
+          - generic [ref=e617]:
+            - heading "Automotive & Aerospace" [level=4] [ref=e618]:
+              - link "Automotive & Aerospace" [ref=e619] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: SAFORA monitors safety performance across assembly lines, robotics operations, and testing facilities. It supports structured inspections and rapid corrective action to maintain operational excellence.
+      - group "8 / 8" [ref=e620]:
+        - generic [ref=e621]:
+          - img "Oil & Gas" [ref=e623]
+          - generic [ref=e624]:
+            - heading "Oil & Gas" [level=4] [ref=e625]:
+              - link "Oil & Gas" [ref=e626] [cursor=pointer]:
+                - /url: "#"
+            - paragraph: In high-risk environments, SAFORA enforces structured permit approvals, incident investigations, and compliance tracking.
+  - generic [ref=e633]:
+    - generic [ref=e634]:
+      - generic [ref=e635]: Testimonials
+      - heading "What Clients Say" [level=2] [ref=e636]
+    - generic [ref=e638]:
+      - generic [ref=e639]:
+        - group "2 / 2" [ref=e640]:
+          - generic [ref=e641]:
+            - generic [ref=e642]:
+              - img "Astrid Johansson" [ref=e644]
+              - img [ref=e646]
+            - generic [ref=e648]:
+              - heading "Safety Coordinator – Logistics" [level=5] [ref=e649]
+              - paragraph [ref=e651]: The hazard reporting system is extremely easy for employees to use. Our team can report issues directly from the field, attach photos, and assign responsible persons immediately. It has improved accountability across departments.
+              - generic [ref=e652]:
+                - heading "Astrid Johansson" [level=6] [ref=e653]
+                - text: Safety Coordinator, Logistics
+        - group "1 / 2" [ref=e654]:
+          - generic [ref=e655]:
+            - generic [ref=e656]:
+              - img "Paavo Vasala" [ref=e658]
+              - img [ref=e660]
+            - generic [ref=e662]:
+              - heading "Chairman – Wasala Oy" [level=5] [ref=e663]
+              - paragraph [ref=e665]: We are pleased to recommend Irusri Group AB for the successful development of the Safora Industrial Safety Management System for Wasala Oy. Safora strengthens our safety processes, supports a zero-harm culture, and ensures secure, transparent reporting and inspections. We are very satisfied with their reliable and effective solution.
+              - generic [ref=e666]:
+                - heading "Paavo Vasala" [level=6] [ref=e667]
+                - text: Chairman, Wasala Oy
+        - group "2 / 2" [ref=e668]:
+          - generic [ref=e669]:
+            - generic [ref=e670]:
+              - img "Astrid Johansson" [ref=e672]
+              - img [ref=e674]
+            - generic [ref=e676]:
+              - heading "Safety Coordinator – Logistics" [level=5] [ref=e677]
+              - paragraph [ref=e679]: The hazard reporting system is extremely easy for employees to use. Our team can report issues directly from the field, attach photos, and assign responsible persons immediately. It has improved accountability across departments.
+              - generic [ref=e680]:
+                - heading "Astrid Johansson" [level=6] [ref=e681]
+                - text: Safety Coordinator, Logistics
+        - group "1 / 2" [ref=e682]:
+          - generic [ref=e683]:
+            - generic [ref=e684]:
+              - img "Paavo Vasala" [ref=e686]
+              - img [ref=e688]
+            - generic [ref=e690]:
+              - heading "Chairman – Wasala Oy" [level=5] [ref=e691]
+              - paragraph [ref=e693]: We are pleased to recommend Irusri Group AB for the successful development of the Safora Industrial Safety Management System for Wasala Oy. Safora strengthens our safety processes, supports a zero-harm culture, and ensures secure, transparent reporting and inspections. We are very satisfied with their reliable and effective solution.
+              - generic [ref=e694]:
+                - heading "Paavo Vasala" [level=6] [ref=e695]
+                - text: Chairman, Wasala Oy
+      - generic [ref=e696]:
+        - button "Previous slide" [ref=e697] [cursor=pointer]:
+          - generic [ref=e698]: 
+        - button "Next slide" [ref=e699] [cursor=pointer]:
+          - generic [ref=e700]: 
+  - generic [ref=e702]:
+    - generic [ref=e705]:
+      - generic [ref=e706]:
+        - img "Safora Blogs Icon" [ref=e707]
+        - text: Blogs
+      - 'heading "EHS Insights: Discover the Future of Workplace Safety and Industries" [level=2] [ref=e708]'
+    - generic [ref=e709]:
+      - text:    
+      - link "See All Blogs" [ref=e712] [cursor=pointer]:
+        - /url: blog.html
+  - generic [ref=e718]:
+    - heading "Frequently Asked Questions" [level=3] [ref=e719]
+    - generic [ref=e723]:
+      - generic [ref=e724]:
+        - heading "01. What is an Industrial Safety Management System (ISMS)?" [level=4] [ref=e725]:
+          - button "01. What is an Industrial Safety Management System (ISMS)?" [expanded] [ref=e726] [cursor=pointer]: 01. What is an Industrial Safety Management System (ISMS)?
+        - generic [ref=e729]:
+          - text: An
+          - link "Industrial Safety Management System" [ref=e730] [cursor=pointer]:
+            - /url: /en/blog-details.html?slug=what-is-a-safety-management-system
+          - text: is a structured platform used to manage workplace safety processes such as hazard reporting, incident tracking, inspections, audits, and corrective actions. SAFORA centralizes these processes into one digital system to help organizations reduce risks, improve safety visibility, and maintain compliance.
+      - heading "02. What is EHS or HSE software?" [level=6] [ref=e732]:
+        - button "02. What is EHS or HSE software?" [ref=e733] [cursor=pointer]: 02. What is EHS or HSE software?
+      - heading "03. How does SAFORA improve workplace safety?" [level=6] [ref=e736]:
+        - button "03. How does SAFORA improve workplace safety?" [ref=e737] [cursor=pointer]: 03. How does SAFORA improve workplace safety?
+      - heading "04. Does SAFORA support Permit-to-Work (PTW) systems?" [level=6] [ref=e740]:
+        - button "04. Does SAFORA support Permit-to-Work (PTW) systems?" [ref=e741] [cursor=pointer]: 04. Does SAFORA support Permit-to-Work (PTW) systems?
+      - heading "05. Can SAFORA help with ISO 45001 compliance?" [level=6] [ref=e744]:
+        - button "05. Can SAFORA help with ISO 45001 compliance?" [ref=e745] [cursor=pointer]: 05. Can SAFORA help with ISO 45001 compliance?
+      - heading "06. Can SAFORA be used across multiple sites or facilities?" [level=6] [ref=e748]:
+        - button "06. Can SAFORA be used across multiple sites or facilities?" [ref=e749] [cursor=pointer]: 06. Can SAFORA be used across multiple sites or facilities?
+      - heading "07. How does SAFORA help reduce workplace accidents?" [level=6] [ref=e752]:
+        - button "07. How does SAFORA help reduce workplace accidents?" [ref=e753] [cursor=pointer]: 07. How does SAFORA help reduce workplace accidents?
+      - heading "08. How long does it take to implement SAFORA?" [level=6] [ref=e756]:
+        - button "08. How long does it take to implement SAFORA?" [ref=e757] [cursor=pointer]: 08. How long does it take to implement SAFORA?
+  - contentinfo [ref=e761]:
+    - generic [ref=e762]:
+      - generic [ref=e765]:
+        - generic [ref=e767]:
+          - link "Safora" [ref=e769] [cursor=pointer]:
+            - /url: /en/
+            - img "Safora"
+          - generic [ref=e770]:
+            - paragraph [ref=e771]: Safora is an Industrial Safety Management System developed by Irusri Group AB to help organizations manage workplace safety effectively.
+            - generic [ref=e772]:
+              - link "Privacy Policy" [ref=e773] [cursor=pointer]:
+                - /url: /en/privacy-policy.html
+              - text: "|"
+              - link "Terms of use" [ref=e774] [cursor=pointer]:
+                - /url: /en/terms-of-use.html
+        - generic [ref=e776]:
+          - heading "Phone Number" [level=5] [ref=e777]
+          - generic [ref=e778]:
+            - link "+46 73 044 58 55" [ref=e782] [cursor=pointer]:
+              - /url: tel:46730445855
+            - heading "Email Address" [level=5] [ref=e783]
+            - link "info@safora.se" [ref=e785] [cursor=pointer]:
+              - /url: mailto:info@safora.se
+        - generic [ref=e787]:
+          - heading "Office Address" [level=5] [ref=e788]
+          - generic [ref=e790]:
+            - link "Rådhusesplanaden 6 F, 903 28, Umeå, Sweden" [ref=e792] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=Rådhusesplanaden+6F,+Umeå,+Sweden
+            - heading "Follow Us" [level=5] [ref=e793]
+            - generic [ref=e795]:
+              - link "X (Twitter)" [ref=e796] [cursor=pointer]:
+                - /url: https://x.com/IrusriGroup
+                - generic [ref=e797]: 
+              - link "Facebook" [ref=e798] [cursor=pointer]:
+                - /url: https://web.facebook.com/profile.php?id=61559106915519
+                - generic [ref=e799]: 
+              - link "Instagram" [ref=e800] [cursor=pointer]:
+                - /url: https://www.instagram.com/irusrigroup_ab/
+                - generic [ref=e801]: 
+              - link "LinkedIn" [ref=e802] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/irusri/
+                - generic [ref=e803]: 
+              - link "Irusri Website" [ref=e804] [cursor=pointer]:
+                - /url: https://irusri.se/
+                - generic [ref=e805]: 
+      - paragraph [ref=e811]:
+        - text: © 2026 Safora
+        - img "Heart Icon"
+        - link "Irusri Website" [ref=e812] [cursor=pointer]:
+          - /url: https://irusri.se/
+          - img "Irusri AB"
+  - generic:
+    - generic: 👋 Chat with us!
+  - button "Chat 1" [ref=e813] [cursor=pointer]:
+    - img "Chat" [ref=e815]
+    - img [ref=e818]
+    - generic [ref=e820]: "1"
+```
